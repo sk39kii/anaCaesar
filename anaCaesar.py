@@ -131,10 +131,10 @@ if __name__ == "__main__":
         anaCaesar(sys.argv[1])
 
     # s = 'AZaz'
-    s = 'VwdbKxqjub'
+    # s = 'VwdbKxqjub'
 
     # 復号化 アルファベット のみ
-    anaCaesar(s)
+    # anaCaesar(s)
 
     # アスキーコードを表示
     # print_ascii()
