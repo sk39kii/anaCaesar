@@ -70,3 +70,16 @@ python anaCaesar.py AZaz
 51      zYZy
 52      AZaz
 ```
+
+## (おまけ)ASCIIコードの一覧を見たくなった場合
+
+現時点ではオプション指定の機能はないので、中身を開いて以下の通り修正してください。  
+
+* 解析中にASCIIコードの一覧を見たくなったときはprint_ascii()を呼べば一覧を出力します
+
+```
+L140
+# print_ascii()
+↓
+print_ascii()
+```
